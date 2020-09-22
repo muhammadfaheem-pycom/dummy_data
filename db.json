@@ -21,6 +21,30 @@
                 "name": "device one"
             }
         ]
+    },
+
+    "channels": {
+        "status": "success",
+        "data":[
+            {
+                "id":1,
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
+                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "name": "channel one"
+            },
+            {
+                "id":2,
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
+                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "name": "channel one"
+            },
+            {
+                "id":3,
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
+                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "name": "channel one"
+            }
+        ]
     }
 }
 
