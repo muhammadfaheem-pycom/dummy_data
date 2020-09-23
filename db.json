@@ -6,19 +6,37 @@
                 "id":1,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab61",
                 "bluetoothMac": "08:00:69:02:01:FD",
-                "name": "device one"
+                "name": "device one",
+                "batteryLevel":100
             },
+            
             {
                 "id":2,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab62",
                 "bluetoothMac": "08:00:69:02:01:FD",
-                "name": "device two"
+                "name": "device two",
+                "batteryLevel":45
             },
             {
                 "id":3,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
                 "bluetoothMac": "08:00:69:02:01:FD",
-                "name": "device three"
+                "name": "device three",
+                "batteryLevel":32
+            },
+            {
+                "id":4,
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab64",
+                "bluetoothMac": "08:00:69:02:01:FD",
+                "name": "device four",
+                "batteryLevel":10
+            },
+            {
+                "id":5,
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab65",
+                "bluetoothMac": "08:00:69:02:01:FD",
+                "name": "device five",
+                "batteryLevel":0
             }
         ]
     },
@@ -28,19 +46,19 @@
         "data":[
             {
                 "id":1,
-                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab64",
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab74",
                 "bluetoothMacs": ["08:00:69:02:01:FD"],
                 "name": "channel one"
             },
             {
                 "id":2,
-                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab65",
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab75",
                 "bluetoothMacs": ["08:00:69:02:01:FD"],
                 "name": "channel two"
             },
             {
                 "id":3,
-                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab66",
+                "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab76",
                 "bluetoothMacs": ["08:00:69:02:01:FD"],
                 "name": "channel three"
             }
