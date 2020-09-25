@@ -5,7 +5,7 @@
             {
                 "id":1,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab61",
-                "bluetoothMac": "08:00:69:02:01:FD",
+                "bluetoothMac": "08:00:69:02:01:FA",
                 "name": "device one",
                 "batteryLevel":100
             },
@@ -13,14 +13,14 @@
             {
                 "id":2,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab62",
-                "bluetoothMac": "08:00:69:02:01:FD",
+                "bluetoothMac": "08:00:69:02:01:FB",
                 "name": "device two",
                 "batteryLevel":45
             },
             {
                 "id":3,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
-                "bluetoothMac": "08:00:69:02:01:FD",
+                "bluetoothMac": "08:00:69:02:01:FC",
                 "name": "device three",
                 "batteryLevel":25
             },
@@ -34,7 +34,7 @@
             {
                 "id":5,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab65",
-                "bluetoothMac": "08:00:69:02:01:FD",
+                "bluetoothMac": "08:00:69:02:01:FE",
                 "name": "device five",
                 "batteryLevel":0
             }
