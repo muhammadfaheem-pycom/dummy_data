@@ -7,7 +7,8 @@
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab61",
                 "bluetoothMac": "08:00:69:02:01:FA",
                 "name": "device one",
-                "batteryLevel":100
+                "batteryLevel":100,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab74"
             },
             
             {
@@ -15,28 +16,32 @@
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab62",
                 "bluetoothMac": "08:00:69:02:01:FB",
                 "name": "device two",
-                "batteryLevel":45
+                "batteryLevel":45,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab75"
             },
             {
                 "id":3,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab63",
                 "bluetoothMac": "08:00:69:02:01:FC",
                 "name": "device three",
-                "batteryLevel":25
+                "batteryLevel":25,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab76"
             },
             {
                 "id":4,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab64",
                 "bluetoothMac": "08:00:69:02:01:FD",
                 "name": "device four",
-                "batteryLevel":10
+                "batteryLevel":10,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77"
             },
             {
                 "id":5,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab65",
                 "bluetoothMac": "08:00:69:02:01:FE",
                 "name": "device five",
-                "batteryLevel":0
+                "batteryLevel":0,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77"
             }
         ]
     },
@@ -47,29 +52,107 @@
             {
                 "id":1,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab74",
-                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "bluetoothMacs": ["08:00:69:02:01:FA","08:00:69:02:01:FB","08:00:69:02:01:FC","08:00:69:02:01:FD"],
                 "name": "channel one",
                 "color": "",
                 "isPrivate":true,
-                "members":["abcd","1234","xyz"]
+                "members":[
+                    {
+                        "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
+                        "requestStatus": "accepted",
+                        "isAdmin":true
+                    },
+                    {
+                        "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
+                        "requestStatus": "accepted",
+                        "isAdmin":true
+                    },
+                    {
+                        "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
+                        "requestStatus": "accepted",
+                        "isAdmin":true
+                    }
+                ]
             },
             {
                 "id":2,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab75",
-                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "bluetoothMacs": ["08:00:69:02:01:FC"],
                 "name": "channel two",
                 "color": "",
                 "isPrivate":true,
-                "members":["abcd","1234","xyz"]
+                "members":[{
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
+                    "requestStatus": "accepted",
+                    "isAdmin":true
+                },
+                {
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
+                    "requestStatus": "accepted",
+                    "isAdmin":false
+                },
+                {
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
+                    "requestStatus": "accepted",
+                    "isAdmin":false
+                }]
             },
             {
                 "id":3,
                 "uuid": "9936ae96-8986-4521-85b5-e0bf86c0ab76",
-                "bluetoothMacs": ["08:00:69:02:01:FD"],
+                "bluetoothMacs": ["08:00:69:02:01:FC","08:00:69:02:01:FD"],
                 "name": "channel three",
                 "color": "",
                 "isPrivate":true,
-                "members":["abcd","1234","xyz"]
+                "members":[{
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
+                    "requestStatus": "accepted",
+                    "isAdmin":true
+                },
+                {
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
+                    "requestStatus": "accepted",
+                    "isAdmin":false
+                },
+                {
+                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
+                    "requestStatus": "accepted",
+                    "isAdmin":false
+                }]
+            }
+        ]
+    },
+
+    "members": {
+        "status": "success",
+        "data":[
+            {
+                "id":1,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab74",
+                "bluetoothMacs": ["08:00:69:02:01:FA"],
+                "fullName": "Muhammad Faheem",
+                "email":"muhammad@pycom.io"
+            },
+            {
+                "id":2,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab75",
+                "bluetoothMacs": ["08:00:69:02:01:FB"],
+                "name": "Ahmed"
+                
+            },
+            {
+                "id":3,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab76",
+                "bluetoothMacs": ["08:00:69:02:01:FC"],
+                "name": "Maric"
+                
+            },
+            {
+                "id":3,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77",
+                "bluetoothMacs": ["08:00:69:02:01:FE", "08:00:69:02:01:FD"],
+                "name": "Kateryna"
+            
             }
         ]
     }
