@@ -116,27 +116,7 @@
                 "name": "channel three",
                 "color": "",
                 "isPrivate":true,
-                "members":[{
-                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
-                    "inviteStatus": "accepted",
-                    "isAdmin":true,
-                    "name" : "Muhammad Faheem",
-                    "email":"muhammad@pycom.io"
-                },
-                {
-                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
-                    "inviteStatus": "accepted",
-                    "isAdmin":false,
-                    "name": "Ahmed",
-                    "email":"ahmad@pycom.io"
-                },
-                {
-                    "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
-                    "inviteStatus": "accepted",
-                    "isAdmin":false,
-                    "name": "Maric",
-                    "email":"maric@pycom.io"
-                }]
+                "members":[]
             }
         ]
     },
