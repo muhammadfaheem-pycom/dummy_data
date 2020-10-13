@@ -60,17 +60,23 @@
                     {
                         "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
                         "inviteStatus": "accepted",
-                        "isAdmin":true
+                        "isAdmin":true,
+                        "name" : "Muhammad Faheem",
+                        "email":"muhammad@pycom.io"
                     },
                     {
                         "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
                         "inviteStatus": "accepted",
-                        "isAdmin":true
+                        "isAdmin":true,
+                        "name": "Ahmed",
+                        "email":"ahmad@pycom.io"
                     },
                     {
                         "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
                         "inviteStatus": "accepted",
-                        "isAdmin":true
+                        "isAdmin":true,
+                        "name": "Maric",
+                        "email":"maric@pycom.io"
                     }
                 ]
             },
@@ -84,17 +90,23 @@
                 "members":[{
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
                     "inviteStatus": "accepted",
-                    "isAdmin":true
+                    "isAdmin":true,
+                    "name" : "Muhammad Faheem",
+                    "email":"muhammad@pycom.io"
                 },
                 {
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
                     "inviteStatus": "accepted",
-                    "isAdmin":false
+                    "isAdmin":false,
+                    "name": "Ahmed",
+                    "email":"ahmad@pycom.io"
                 },
                 {
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
                     "inviteStatus": "accepted",
-                    "isAdmin":false
+                    "isAdmin":false,
+                    "name": "Maric",
+                    "email":"maric@pycom.io"
                 }]
             },
             {
@@ -107,17 +119,23 @@
                 "members":[{
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab74",
                     "inviteStatus": "accepted",
-                    "isAdmin":true
+                    "isAdmin":true,
+                    "name" : "Muhammad Faheem",
+                    "email":"muhammad@pycom.io"
                 },
                 {
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab75",
                     "inviteStatus": "accepted",
-                    "isAdmin":false
+                    "isAdmin":false,
+                    "name": "Ahmed",
+                    "email":"ahmad@pycom.io"
                 },
                 {
                     "userId":"9936ae96-8986-4521-85b5-a0bf86c0ab76",
                     "inviteStatus": "accepted",
-                    "isAdmin":false
+                    "isAdmin":false,
+                    "name": "Maric",
+                    "email":"maric@pycom.io"
                 }]
             }
         ]
@@ -130,28 +148,31 @@
                 "id":1,
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab74",
                 "bluetoothMacs": ["08:00:69:02:01:FA"],
-                "fullName": "Muhammad Faheem",
+                "name": "Muhammad Faheem",
                 "email":"muhammad@pycom.io"
             },
             {
                 "id":2,
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab75",
                 "bluetoothMacs": ["08:00:69:02:01:FB"],
-                "name": "Ahmed"
+                "name": "Ahmed",
+                "email":"ahmad@pycom.io"
                 
             },
             {
                 "id":3,
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab76",
                 "bluetoothMacs": ["08:00:69:02:01:FC"],
-                "name": "Maric"
+                "name": "Maric",
+                "email":"maric@pycom.io"
                 
             },
             {
                 "id":3,
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77",
                 "bluetoothMacs": ["08:00:69:02:01:FE", "08:00:69:02:01:FD"],
-                "name": "Kateryna"
+                "name": "Kateryna",
+                "email":"Kateryna@pycom.io"
             
             }
         ]
