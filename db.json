@@ -167,7 +167,8 @@
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab74",
                 "notificationId": "9936ae96-8986-5021-85b5-a0bf86c0ab74",
                 "title": "Hi",
-                "message": "Hello this is notification dummy message"
+                "message": "Hello this is notification dummy message",
+                "createdAt":""
                 
             },
             {
@@ -175,7 +176,8 @@
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab75",
                 "notificationId": "9936ae96-8986-5021-85b5-a0bf86c0ab75",
                 "title": "Hi",
-                "message": "Hello this is notification dummy message"
+                "message": "Hello this is notification dummy message",
+                "createdAt":"2020-10-20T12:23:42.013Z"
                 
             },
             {
@@ -183,7 +185,8 @@
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab76",
                 "notificationId": "9936ae96-8986-5021-85b5-a0bf86c0ab76",
                 "title": "Hi",
-                "message": "Hello this is notification dummy message"
+                "message": "Hello this is notification dummy message",
+                "createdAt":"2020-10-20T12:23:42.013Z"
                 
             },
             {
