@@ -148,11 +148,46 @@
                 
             },
             {
-                "id":3,
+                "id":4,
                 "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77",
                 "bluetoothMacs": ["08:00:69:02:01:FE", "08:00:69:02:01:FD"],
                 "name": "Kateryna",
                 "email":"Kateryna@pycom.io"
+            
+            }
+        ]
+    },
+
+    "notifications":{
+
+        "status": "success",
+        "data":[
+            {
+                "id":1,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab74",
+                "title": "Hi",
+                "message": "Hello this is notification dummy message"
+                
+            },
+            {
+                "id":2,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab75",
+                "title": "Hi",
+                "message": "Hello this is notification dummy message"
+                
+            },
+            {
+                "id":3,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab76",
+                "title": "Hi",
+                "message": "Hello this is notification dummy message"
+                
+            },
+            {
+                "id":4,
+                "userId": "9936ae96-8986-4521-85b5-a0bf86c0ab77",
+                "title": "Hi",
+                "message": "Hello this is notification dummy message"
             
             }
         ]
